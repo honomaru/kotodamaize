@@ -1,0 +1,132 @@
+body {
+  background-color: black;
+  color: white;
+  letter-spacing: 0.2em;
+}
+
+/* 紫と黒の相性よくないのでリンクは常に同じ色に */
+a {
+  color: white;
+}
+
+.app .title {
+  background-color: black;
+  color: white;
+  letter-spacing: 0.5em;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.input {
+  width: 50%;
+  max-width: 600px;
+  height: 50%; /* adjust as needed */
+  min-height: 200px;
+  margin-bottom: 10px;
+  margin-top: 2%;
+}
+
+h1 {
+  font-family: 'DotGothic16', sans-serif;
+}
+
+/* classname a のみに適用 */
+.app {
+  font-family: 'PressStart2P', sans-serif;
+  font-size: 32px; 
+}
+
+.app .explain {
+  font-family: 'PressStart2P', sans-serif;
+  font-size: 16px; 
+}
+
+.kotodamize {
+  font-family: 'DotGothic16', sans-serif;
+  margin-top: 5pt;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.button-container {
+  /* 他のプロパティを保持 */
+  padding-left: 20%; /* 左右のパディングを調整して中央に寄せる */
+  padding-right: 20%;
+}
+.kotodama-selector {
+  width: 50%;
+  display: flex;
+  flex-direction: column; /* Make it column to stack image and text */
+  align-items: center;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  max-width: 40%;
+}
+
+.kotodama-selector span {
+  text-align: center; /* Center the text */
+  max-width: 90%; /* Restrict the width */
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 16px;
+  font-weight: bold; 
+}
+
+.kotodama-selector img {
+  width: 60px; /* adjust as needed */
+  height: 60px; /* adjust as needed */
+}
+
+.kotodamize {
+  text-align: center;
+}
+
+.kotodamize button {
+  width: 400pt; /* ボタンの幅を最大にする */
+  max-width: 60%;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 50px; /* same height as the input field */
+  font-family: 'DotGothic16', sans-serif;
+  margin-top: 1%;
+  font-size: 24px; 
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+@media (max-width: 768px) {
+  .kotodama-selector {
+      width: 100%; /* モバイルデバイスでのボタンの幅 */
+  }
+  
+}
+
+.transformed-text {
+  margin-top: 10%;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 16px;
+  max-width: 50%;
+  margin-bottom: 10%;
+}
+
+.infusing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DotGothic16', sans-serif;
+  height: 100vh; /* viewport heightの100%を指定して、全画面の高さを埋めます */
+  font-size: 24px; /* 必要に応じてフォントサイズを調整 */
+}
+
+.input {
+  font-family: 'DotGothic16', sans-serif;
+  letter-spacing: 0.2em;
+}
